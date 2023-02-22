@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cc26b12-1853-48ea-94ac-02716a9750a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAPI/uiTabsLabelBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAPI/uiTabsLabelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAPI/uiTabsLabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAPI/uiTabsLabelController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_directory_selection": "C:/Users/User/IdeaProjects/mavenAPI/src/main/java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.language"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/User/IdeaProjects/mavenAPI/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="uiTabsLabelController" />
@@ -62,7 +56,23 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.uiTabsLabelController.postOneTabLabel">
+    <configuration name="uiTabsLabelController.getAllTabsLabels (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ru.smpr.rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAPI" />
+      <option name="MAIN_CLASS_NAME" value="restAPI.uiTabsLabelController" />
+      <option name="METHOD_NAME" value="getAllTabsLabels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="uiTabsLabelController.getAllTabsLabels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-allure-report-example" />
       <extension name="coverage">
@@ -79,8 +89,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uiTabsLabelController.postOneTabLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ru.smpr.rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAPI" />
+      <option name="MAIN_CLASS_NAME" value="restAPI.uiTabsLabelController" />
+      <option name="METHOD_NAME" value="postOneTabLabel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.uiTabsLabelController.postOneTabLabel" />
+        <item itemvalue="JUnit.uiTabsLabelController.getAllTabsLabels (1)" />
         <item itemvalue="JUnit.uiTabsLabelController.getAllTabsLabels" />
       </list>
     </recent_temporary>
