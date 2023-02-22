@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cc26b12-1853-48ea-94ac-02716a9750a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7cc26b12-1853-48ea-94ac-02716a9750a4" name="Changes" comment="commit 13:47">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restAPI/uiTabsLabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAPI/uiTabsLabelController.java" afterDir="false" />
     </list>
@@ -57,6 +56,21 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.uiTabsLabelController.postOneTabLabel">
+    <configuration name="uiTabsLabelController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ru.smpr.rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAPI" />
+      <option name="MAIN_CLASS_NAME" value="restAPI.uiTabsLabelController" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="uiTabsLabelController.getAllTabsLabels (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ru.smpr.rest" />
       <extension name="coverage">
@@ -84,6 +98,22 @@
       <option name="PACKAGE_NAME" value="restAPI" />
       <option name="MAIN_CLASS_NAME" value="restAPI.uiTabsLabelController" />
       <option name="METHOD_NAME" value="getAllTabsLabels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uiTabsLabelController.postOneTabLabel (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ru.smpr.rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAPI" />
+      <option name="MAIN_CLASS_NAME" value="restAPI.uiTabsLabelController" />
+      <option name="METHOD_NAME" value="postOneTabLabel(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,6 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.uiTabsLabelController.postOneTabLabel" />
+        <item itemvalue="JUnit.uiTabsLabelController" />
+        <item itemvalue="JUnit.uiTabsLabelController.postOneTabLabel (1)" />
         <item itemvalue="JUnit.uiTabsLabelController.getAllTabsLabels (1)" />
         <item itemvalue="JUnit.uiTabsLabelController.getAllTabsLabels" />
       </list>
@@ -133,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676970630099</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit 13:47">
+      <created>1677055699670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677055699670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +185,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 13:47" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 13:47" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.*;
 public class uiTabsLabelController {
   String baseURL = "http://192.168.30.181:4040/backend/rest";
   String labelName = "Тест API";
-  String labelId;
+  int labelId;
 
   @Test
   public void postOneTabLabel() {
@@ -31,25 +31,27 @@ public class uiTabsLabelController {
             .then()
             .statusCode(200);
     getAllTabsLabels();
-//    deleteOneTabLabel();
+    deleteOneTabLabel(labelId);
   }
 
-  public String getAllTabsLabels() {
-    String response = get(baseURL + "/ui/tab-label")
+  public int getAllTabsLabels() {
+    Response response = get(baseURL + "/ui/tab-label")
             .then()
             .statusCode(200)
             .body("label", hasItem(labelName))
-            .extract()
-            .asString();
+            .extract().response();
+    JsonPath jsonPath = response.jsonPath();
+    int labelId = jsonPath.getInt("[0].id");
     System.out.println(response);
-    return response;
+    System.out.println(labelId);
+    return labelId;
   }
 
-  public  void deleteOneTabLabel(){
+  public  void deleteOneTabLabel(int labelId){
     new RestAssured()
             .given().log().all()
             .when()
-            .delete(baseURL + "/ui/tab-label" + labelId)
+            .delete(baseURL + "/ui/tab-label/" + labelId)
             .then()
             .statusCode(200);
   }
